@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Motivation</string>
+
+    <string name="avan_ar">Avançar</string>
+    <string name="informe_seu_nome">Seu Nome</string>
+    <string name="error_informe_seu_nome">Seu Nome</string>
+
+
+</resources>

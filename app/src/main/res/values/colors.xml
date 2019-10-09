@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorAccentWhite">#ffffff</color>
+    <color name="colorAccentBlackMenu">#000000</color>
+    <color name="colorText">#F12CF5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorError">#BD0808</color>
+    <color name="snack">#000000</color>
+
+
+    <color name="menuSelected">#ffffff</color>
+    <color name="menuUnSelected">#818181</color>
+
+    <color name="sucess">#0CB804</color>
+
+
+
+    <color name="colorPrimaryNews">#FFFFFF</color>
+    <color name="colorPrimaryDarkNews">#000000</color>
+
+</resources>

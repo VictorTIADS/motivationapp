@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.motivation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".views.NewsActivity"
+            android:theme="@style/Theme.AppCompat.Light.noActionBarNews"/>
+        <activity
+            android:name=".views.MenuActivity"
+            android:theme="@style/Theme.AppCompat.Light.noActionBarMenu" />
+        <activity
+            android:name=".views.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.noActionBarMain" />
+        <activity
+            android:name=".views.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
